@@ -28,7 +28,7 @@ class ControllerNode(Node):
         self.current_yaw = 0.0
         self.target_yaw = 0.0
         self.exact_yaw = 0.0
-        loop_frequency = 0.2
+        loop_frequency = 0.25
         self.ranges = np.array([])
         self.angle_min = 0.0
         self.angle_max = math.inf
