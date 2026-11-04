@@ -1,0 +1,43 @@
+[0.690s] Invoking command in '/home/leonardo/tentativi/ros2_ws/src/lab02_pkg': PYTHONPATH=/home/leonardo/tentativi/ros2_ws/build/lab02_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab02_pkg build --build-base /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/build install --record /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/install.log --install-scripts $base/lib/lab02_pkg --single-version-externally-managed install_data
+[0.935s] running egg_info
+[0.936s] creating ../../build/lab02_pkg/lab02_pkg.egg-info
+[0.936s] writing ../../build/lab02_pkg/lab02_pkg.egg-info/PKG-INFO
+[0.936s] writing dependency_links to ../../build/lab02_pkg/lab02_pkg.egg-info/dependency_links.txt
+[0.937s] writing entry points to ../../build/lab02_pkg/lab02_pkg.egg-info/entry_points.txt
+[0.937s] writing requirements to ../../build/lab02_pkg/lab02_pkg.egg-info/requires.txt
+[0.937s] writing top-level names to ../../build/lab02_pkg/lab02_pkg.egg-info/top_level.txt
+[0.937s] writing manifest file '../../build/lab02_pkg/lab02_pkg.egg-info/SOURCES.txt'
+[0.939s] reading manifest file '../../build/lab02_pkg/lab02_pkg.egg-info/SOURCES.txt'
+[0.940s] writing manifest file '../../build/lab02_pkg/lab02_pkg.egg-info/SOURCES.txt'
+[0.940s] running build
+[0.940s] running build_py
+[0.940s] creating /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/build
+[0.941s] creating /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/build/lib
+[0.941s] creating /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/build/lib/lab02_pkg
+[0.941s] copying lab02_pkg/__init__.py -> /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/build/lib/lab02_pkg
+[0.941s] copying lab02_pkg/controller.py -> /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/build/lib/lab02_pkg
+[0.942s] running install
+[0.942s] running install_lib
+[0.943s] creating /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/python3.10/site-packages/lab02_pkg
+[0.943s] copying /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/build/lib/lab02_pkg/__init__.py -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/python3.10/site-packages/lab02_pkg
+[0.944s] copying /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/build/lib/lab02_pkg/controller.py -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/python3.10/site-packages/lab02_pkg
+[0.944s] byte-compiling /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/python3.10/site-packages/lab02_pkg/__init__.py to __init__.cpython-310.pyc
+[0.945s] byte-compiling /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/python3.10/site-packages/lab02_pkg/controller.py to controller.cpython-310.pyc
+[0.947s] running install_data
+[0.948s] creating /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/ament_index
+[0.948s] creating /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/ament_index/resource_index
+[0.948s] creating /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/ament_index/resource_index/packages
+[0.949s] copying resource/lab02_pkg -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/ament_index/resource_index/packages
+[0.949s] copying package.xml -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg
+[0.949s] creating /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg/launch
+[0.949s] copying launch/simulations_with_parameters.py -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg/launch
+[0.949s] copying launch/simulations_with_parameters.py:Zone.Identifier -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg/launch
+[0.949s] creating /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg/config
+[0.950s] copying config/params_simulation.yaml:Zone.Identifier -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg/config
+[0.950s] copying config/params_simulation.yaml -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg/config
+[0.950s] running install_egg_info
+[0.953s] Copying ../../build/lab02_pkg/lab02_pkg.egg-info to /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/python3.10/site-packages/lab02_pkg-0.0.0-py3.10.egg-info
+[0.954s] running install_scripts
+[0.977s] Installing controller script to /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/lab02_pkg
+[0.978s] writing list of installed files to '/home/leonardo/tentativi/ros2_ws/build/lab02_pkg/install.log'
+[1.009s] Invoked command in '/home/leonardo/tentativi/ros2_ws/src/lab02_pkg' returned '0': PYTHONPATH=/home/leonardo/tentativi/ros2_ws/build/lab02_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab02_pkg build --build-base /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/build install --record /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/install.log --install-scripts $base/lib/lab02_pkg --single-version-externally-managed install_data
