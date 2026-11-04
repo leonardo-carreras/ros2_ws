@@ -1,5 +1,1 @@
-controller:
-  ros__parameters:
-    velMax: 0.22
-    velAngMax: 1.5
-    bumperThreshold: 0.7
+/home/leonardo/tentativi/ros2_ws/build/lab02_pkg/config/params_simulation.yaml

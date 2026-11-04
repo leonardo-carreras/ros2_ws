@@ -2,6 +2,13 @@ import os
 from glob import glob
 from setuptools import find_packages, setup
 
+from launch_ros.actions import Node
+from launch import LaunchDescription
+from launch.actions import IncludeLaunchDescription
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.substitutions import PathJoinSubstitution
+from launch_ros.substitutions import FindPackageShare
+
 package_name = 'lab02_pkg'
 
 setup(

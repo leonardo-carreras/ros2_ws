@@ -1,0 +1,30 @@
+[1.433s] Invoking command in '/home/leonardo/tentativi/ros2_ws/build/lab02_pkg': PYTHONPATH=/home/leonardo/tentativi/ros2_ws/build/lab02_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/build --no-deps symlink_data
+[1.948s] running develop
+[2.145s] running egg_info
+[2.145s] creating lab02_pkg.egg-info
+[2.145s] writing lab02_pkg.egg-info/PKG-INFO
+[2.145s] writing dependency_links to lab02_pkg.egg-info/dependency_links.txt
+[2.146s] writing entry points to lab02_pkg.egg-info/entry_points.txt
+[2.146s] writing requirements to lab02_pkg.egg-info/requires.txt
+[2.146s] writing top-level names to lab02_pkg.egg-info/top_level.txt
+[2.147s] writing manifest file 'lab02_pkg.egg-info/SOURCES.txt'
+[2.148s] reading manifest file 'lab02_pkg.egg-info/SOURCES.txt'
+[2.149s] writing manifest file 'lab02_pkg.egg-info/SOURCES.txt'
+[2.150s] running build_ext
+[2.150s] Creating /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/python3.10/site-packages/lab02-pkg.egg-link (link to .)
+[2.151s] Installing controller script to /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/lab02_pkg
+[2.152s] 
+[2.152s] Installed /home/leonardo/tentativi/ros2_ws/build/lab02_pkg
+[2.152s] running symlink_data
+[2.152s] creating /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/ament_index
+[2.153s] creating /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/ament_index/resource_index
+[2.154s] creating /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/ament_index/resource_index/packages
+[2.154s] symbolically linking /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/resource/lab02_pkg -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/ament_index/resource_index/packages
+[2.154s] symbolically linking /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/package.xml -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg
+[2.154s] creating /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg/launch
+[2.154s] symbolically linking /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/launch/simulations_with_parameters.launch.py -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg/launch
+[2.155s] symbolically linking /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/launch/realrobot_with_parameters.launch.py -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg/launch
+[2.155s] creating /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg/config
+[2.155s] symbolically linking /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/config/params_realrobot.yaml -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg/config
+[2.155s] symbolically linking /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/config/params_simulation.yaml -> /home/leonardo/tentativi/ros2_ws/install/lab02_pkg/share/lab02_pkg/config
+[2.247s] Invoked command in '/home/leonardo/tentativi/ros2_ws/build/lab02_pkg' returned '0': PYTHONPATH=/home/leonardo/tentativi/ros2_ws/build/lab02_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leonardo/tentativi/ros2_ws/install/lab02_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/leonardo/tentativi/ros2_ws/build/lab02_pkg/build --no-deps symlink_data

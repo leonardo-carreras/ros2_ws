@@ -1,0 +1,1 @@
+/home/leonardo/tentativi/ros2_ws/src/lab02_pkg/launch/realrobot_with_parameters.launch.py

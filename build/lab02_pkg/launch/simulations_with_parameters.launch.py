@@ -1,0 +1,1 @@
+/home/leonardo/tentativi/ros2_ws/src/lab02_pkg/launch/simulations_with_parameters.launch.py
