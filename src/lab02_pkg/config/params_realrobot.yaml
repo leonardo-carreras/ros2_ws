@@ -1,0 +1,5 @@
+controller:
+  ros__parameters:
+    velMax: 0.15
+    velAngMax: 1.5
+    bumperThreshold: 0.4
